@@ -1,4 +1,5 @@
 file_name = "household_power_consumption.txt"
+#check if data file exist, if not - download it
 if(!file.exists(file_name)){
     link <- "https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip"
     download.file(link, "pc.zip")
